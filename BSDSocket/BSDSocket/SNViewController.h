@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  SNViewController.h
 //  BSDSocket
 //
 //  Created by 普伴 on 16/7/13.
@@ -8,8 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
-
+@interface SNViewController : UITabBarController
 
 @end
-

@@ -9,12 +9,15 @@
 /* Begin PBXBuildFile section */
 		598AB45B1D35D5EF0047B9E4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 598AB45A1D35D5EF0047B9E4 /* main.m */; };
 		598AB45E1D35D5EF0047B9E4 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 598AB45D1D35D5EF0047B9E4 /* AppDelegate.m */; };
-		598AB4611D35D5EF0047B9E4 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 598AB4601D35D5EF0047B9E4 /* ViewController.m */; };
-		598AB4641D35D5EF0047B9E4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 598AB4621D35D5EF0047B9E4 /* Main.storyboard */; };
 		598AB4661D35D5EF0047B9E4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 598AB4651D35D5EF0047B9E4 /* Assets.xcassets */; };
 		598AB4691D35D5EF0047B9E4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 598AB4671D35D5EF0047B9E4 /* LaunchScreen.storyboard */; };
 		598AB4741D35D5EF0047B9E4 /* BSDSocketTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 598AB4731D35D5EF0047B9E4 /* BSDSocketTests.m */; };
 		598AB47F1D35D5EF0047B9E4 /* BSDSocketUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 598AB47E1D35D5EF0047B9E4 /* BSDSocketUITests.m */; };
+		598AB4951D35E9890047B9E4 /* SNClentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 598AB4931D35E9890047B9E4 /* SNClentViewController.m */; };
+		598AB4961D35E9890047B9E4 /* SNClentViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 598AB4941D35E9890047B9E4 /* SNClentViewController.xib */; };
+		598AB4A01D35E9D70047B9E4 /* SNServerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 598AB49E1D35E9D70047B9E4 /* SNServerViewController.m */; };
+		598AB4A11D35E9D70047B9E4 /* SNServerViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 598AB49F1D35E9D70047B9E4 /* SNServerViewController.xib */; };
+		598AB4A41D35EAE10047B9E4 /* SNViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 598AB4A31D35EAE10047B9E4 /* SNViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,9 +42,6 @@
 		598AB45A1D35D5EF0047B9E4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		598AB45C1D35D5EF0047B9E4 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		598AB45D1D35D5EF0047B9E4 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		598AB45F1D35D5EF0047B9E4 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		598AB4601D35D5EF0047B9E4 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		598AB4631D35D5EF0047B9E4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		598AB4651D35D5EF0047B9E4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		598AB4681D35D5EF0047B9E4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		598AB46A1D35D5EF0047B9E4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -51,6 +51,14 @@
 		598AB47A1D35D5EF0047B9E4 /* BSDSocketUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BSDSocketUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		598AB47E1D35D5EF0047B9E4 /* BSDSocketUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BSDSocketUITests.m; sourceTree = "<group>"; };
 		598AB4801D35D5EF0047B9E4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		598AB4921D35E9890047B9E4 /* SNClentViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SNClentViewController.h; sourceTree = "<group>"; };
+		598AB4931D35E9890047B9E4 /* SNClentViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SNClentViewController.m; sourceTree = "<group>"; };
+		598AB4941D35E9890047B9E4 /* SNClentViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SNClentViewController.xib; sourceTree = "<group>"; };
+		598AB49D1D35E9D70047B9E4 /* SNServerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SNServerViewController.h; sourceTree = "<group>"; };
+		598AB49E1D35E9D70047B9E4 /* SNServerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SNServerViewController.m; sourceTree = "<group>"; };
+		598AB49F1D35E9D70047B9E4 /* SNServerViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SNServerViewController.xib; sourceTree = "<group>"; };
+		598AB4A21D35EAE10047B9E4 /* SNViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SNViewController.h; sourceTree = "<group>"; };
+		598AB4A31D35EAE10047B9E4 /* SNViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SNViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,9 +111,10 @@
 			children = (
 				598AB45C1D35D5EF0047B9E4 /* AppDelegate.h */,
 				598AB45D1D35D5EF0047B9E4 /* AppDelegate.m */,
-				598AB45F1D35D5EF0047B9E4 /* ViewController.h */,
-				598AB4601D35D5EF0047B9E4 /* ViewController.m */,
-				598AB4621D35D5EF0047B9E4 /* Main.storyboard */,
+				598AB4A21D35EAE10047B9E4 /* SNViewController.h */,
+				598AB4A31D35EAE10047B9E4 /* SNViewController.m */,
+				598AB49C1D35E9D70047B9E4 /* Server */,
+				598AB4911D35E9890047B9E4 /* Clent */,
 				598AB4651D35D5EF0047B9E4 /* Assets.xcassets */,
 				598AB4671D35D5EF0047B9E4 /* LaunchScreen.storyboard */,
 				598AB46A1D35D5EF0047B9E4 /* Info.plist */,
@@ -138,6 +147,26 @@
 				598AB4801D35D5EF0047B9E4 /* Info.plist */,
 			);
 			path = BSDSocketUITests;
+			sourceTree = "<group>";
+		};
+		598AB4911D35E9890047B9E4 /* Clent */ = {
+			isa = PBXGroup;
+			children = (
+				598AB4921D35E9890047B9E4 /* SNClentViewController.h */,
+				598AB4931D35E9890047B9E4 /* SNClentViewController.m */,
+				598AB4941D35E9890047B9E4 /* SNClentViewController.xib */,
+			);
+			path = Clent;
+			sourceTree = "<group>";
+		};
+		598AB49C1D35E9D70047B9E4 /* Server */ = {
+			isa = PBXGroup;
+			children = (
+				598AB49D1D35E9D70047B9E4 /* SNServerViewController.h */,
+				598AB49E1D35E9D70047B9E4 /* SNServerViewController.m */,
+				598AB49F1D35E9D70047B9E4 /* SNServerViewController.xib */,
+			);
+			path = Server;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -243,9 +272,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				598AB4961D35E9890047B9E4 /* SNClentViewController.xib in Resources */,
+				598AB4A11D35E9D70047B9E4 /* SNServerViewController.xib in Resources */,
 				598AB4691D35D5EF0047B9E4 /* LaunchScreen.storyboard in Resources */,
 				598AB4661D35D5EF0047B9E4 /* Assets.xcassets in Resources */,
-				598AB4641D35D5EF0047B9E4 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -270,9 +300,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				598AB4611D35D5EF0047B9E4 /* ViewController.m in Sources */,
 				598AB45E1D35D5EF0047B9E4 /* AppDelegate.m in Sources */,
+				598AB4A01D35E9D70047B9E4 /* SNServerViewController.m in Sources */,
 				598AB45B1D35D5EF0047B9E4 /* main.m in Sources */,
+				598AB4A41D35EAE10047B9E4 /* SNViewController.m in Sources */,
+				598AB4951D35E9890047B9E4 /* SNClentViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -308,14 +340,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		598AB4621D35D5EF0047B9E4 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				598AB4631D35D5EF0047B9E4 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		598AB4671D35D5EF0047B9E4 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -496,6 +520,7 @@
 				598AB4851D35D5EF0047B9E4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		598AB4861D35D5EF0047B9E4 /* Build configuration list for PBXNativeTarget "BSDSocketTests" */ = {
 			isa = XCConfigurationList;
@@ -504,6 +529,7 @@
 				598AB4881D35D5EF0047B9E4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		598AB4891D35D5EF0047B9E4 /* Build configuration list for PBXNativeTarget "BSDSocketUITests" */ = {
 			isa = XCConfigurationList;
@@ -512,6 +538,7 @@
 				598AB48B1D35D5EF0047B9E4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
